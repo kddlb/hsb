@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+$enable-shadows: true;
+$enable-gradients: true;
+$enable-rounded: true;
+$primary: #7b41b9;
+$secondary: #fe8000;
+$font-family-sans-serif: "Inter",
+system-ui,
+-apple-system,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+"Noto Sans",
+"Liberation Sans",
+Arial,
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji";
+@import 'bootstrap/scss/bootstrap.scss';
+.footnote {
+    font-size: 10px;
+    vertical-align: super;
+}
+
+a[id^='fn'] {
+    &::before {
+        content: '[';
+    }
+    &::after {
+        content: '] ';
+    }
+}
