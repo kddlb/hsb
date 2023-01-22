@@ -135,5 +135,3 @@ dist/
 # Local Netlify folder
 .netlify
 .parcel-cache
-src/index.html
-.pugrc
